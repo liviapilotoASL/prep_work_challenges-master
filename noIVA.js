@@ -14,7 +14,7 @@ noIva(242)
 function noIva(totalPriceWithIva) {
     const ivaRate = 0.21; // 21% IVA
     const priceWithoutIva = totalPriceWithIva / (1 + ivaRate);
-    return Math.round(prisceWithoutIva);
+    return Math.round(priceWithoutIva);
 }
 
 console.log(noIva(242)); // 200
